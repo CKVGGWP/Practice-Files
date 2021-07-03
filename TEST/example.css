@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&family=New+Tegomin&display=swap');
+/* tr,
+th,
+td {
+    border: 1px solid black;
+}
+
+#btn {
+    width: 100px;
+}
+
+th {
+    font-size: 10px;  */
+    /* Pixels are absolute values 
+} */
+/* Percent - Relative (will depend on the parent element) */
+
+.outer {
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+}
+
+.inner {
+    width: 50%;
+    height: 50%;
+    background-color: red;
+    position: relative;
+    float: right;
+}
+
+/* em - relative depends on the parent
+    1em = 16px default browser styles
+    1 em = base value
+*/
+
+div {
+    font-size: 20px; 
+    /* Absolute */
+}
+.relative {
+    font-size: 2em;
+    /* Relative - depends on the parent element 20px * 2em = 40px */
+}
+
+.Absolute {
+    font-size: 32px;
+    /* Stay put */
+}
+
+/* rem - relative depends on the root (HTML)
+    1 rem = 16px default browser style
+*/
+
+html {
+    font-size: 32px;
+}
+
+.rem {
+    font-size: 2rem;
+    /* 32px * 2rem = 64px */
+}
+
+/* vh - height - relative percent of the screen
+    vw - width - relative percent of the screen
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fullscreen {
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}
+
+.halfscreen {
+    width: 50vw;
+    height: 50vh;
+    background-color: blue;
+}
+
+/* calc () - perform math operations + - * /
+    mix and match values
+*/
+
+
+.nav {
+    background-color: red;
+    height: 100px;
+    color: white;
+    font-size: 2rem;
+     font-family: 'New Tegomin',
+     serif;
+}
+
+.banner {
+    background-color: blue;
+    height: calc(100vh - 100px); 
+    /* 100vh - 100px (nav) */
+    color: white;
+    font-size: 2rem;  
+    font-family: 'Kiwi Maru',
+    serif;
+}
+
+/* text-align - control the alignment of the text */
+.one {
+    text-align: center;
+}
+/* line-height  - controls the line height of the text*/
+.two {
+    line-height: 2em;
+}
+/* letter-spacing - controls the spacing-between each letter */
+.three {
+    letter-spacing: 5px;
+}
+/* word-spacing - controsl the spacing-between each word */
+.four {
+    word-spacing: 20px;
+}
+/* text-transform - controls the transformation of the text */
+.five {
+    text-transform: uppercase;
+}
+/* text-decoration - controls the decoration of the text */
+.six {
+    text-decoration: underline;
+}
+

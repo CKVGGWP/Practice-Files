@@ -1,0 +1,268 @@
+ <div class="nav container-fluid">
+            <a href="#" id="logo-name">cup K's<br>indulgence</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Navigation -->
+                <div class="nav-design">
+                    <nav class="nav-bar navbar navbar-expand-lg">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Valentines</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarCakeCategories" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Cake Categories
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarCakeCategories">
+                                    <li><a class="dropdown-item" href="#">Classic Cake</a></li>
+                                    <li><a class="dropdown-item" href="#">Birthday Cake</a></li>
+                                    <li><a class="dropdown-item" href="#">Minimalist Cake</a></li>
+                                    <li><a class="dropdown-item" href="#">Character Cake</a></li>
+                                    <li><a class="dropdown-item" href="#">Painted Cake</a></li>
+                                    <li><a class="dropdown-item" href="#">Money Cake</a></li>
+                                    <li><a class="dropdown-item" href="#">Bento Cake</a></li>
+                                    <li><a class="dropdown-item" href="#">Cupcakes</a></li>
+                                    <li><a class="dropdown-item" href="#">Wedding Cake</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarBudget" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Budget
+                                </a>
+                                <ul class="dropdown-menu nav-item" aria-labelledby="navbarBudget">
+                                    <li><a class="dropdown-item" href="#">Below PHP 500</a></li>
+                                    <li><a class="dropdown-item" href="#">PHP 500 - PHP 1000</a></li>
+                                    <li><a class="dropdown-item" href="#">Above PHP 1000</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">DESIGN YOUR OWN CAKE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">FAQ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- Search Bar -->
+                <div class="search-bar">
+                    <form action="random" method="POST" autocomplete="off" class="form-search d-flex">
+                        <input type="text" name="search" placeholder="Search" class="input-search me-2">
+                        <button type="submit" class="btn-search"><img
+                                src="/IMAGES%20AND%20ICONS/ICONS/SVG/search_black_24dp.svg" alt="Submit"></button>
+                    </form>
+                </div>
+            </div>
+
+
+/* Navbar */
+
+.nav {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    border-top: .5px solid lightgray;
+    padding: 10px 0;
+}
+
+/* Logo */
+
+#logo-name {
+    font-size: 30px;
+    font-family: Ink Free, Montserrat, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.2em;
+    margin: auto .5em auto 1em;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Navbars */
+
+.nav-design {
+    position: relative;
+    width: 50%;
+    margin: auto auto auto 0;
+    left: 0;
+}
+
+.nav-link {
+    padding: 0;
+}
+
+.nav-bar{
+    position: absolute;
+    width: 100%;
+    margin: -1em 0 0 0;
+}
+
+.nav-bar ul li {
+    list-style-type: none;
+    font-family: Ink Free, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.dropdown-item:hover {
+    color: red;
+}
+
+.dropdown-menu {
+    margin-top: 0;
+}
+
+/* Search Bar */
+
+.search-bar {
+    position: absolute;
+    left: 60em;
+    top: 1.5em;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.form-search {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--primary-color);
+    padding: 2px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.input-search {
+    flex-grow: 2;
+    border: none;
+    text-indent: .5em;
+    width: 16em;
+}
+
+.input-search:focus {
+    outline: none;
+}
+
+.btn-search {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    position: relative;
+    right: 4px;
+}
+
+.nav-sign-in-size {
+    margin: .5em;
+}
+
+.navbar {
+    padding: 0;
+}
+.dropdown-menu {
+    color: #e4815d;
+}
+
+.form-search {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--primary-color);
+    padding: 2px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.input-search {
+    flex-grow: 2;
+    border: none;
+    text-indent: .5em;
+    width: 16em;
+}
+
+.input-search:focus {
+    outline: none;
+}
+
+.btn-search {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    position: relative;
+    right: 4px;
+}
+
+.nav-sign-in-size {
+    margin: .5em;
+}
+
+.navbar {
+    padding: 0;
+}
+
+
+.input-search {
+    font-family: Ink Free, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: inherit;
+}
+
+
+    .header-border .show-mobile {
+        display: none;
+        font-size: 20px;
+    }
+    /* .nav-sign-in-design {
+        position: absolute;
+        right: 2em;
+        top: 16em;
+        gap: 4em;
+    } */
+}
+
+@media screen and (max-width: 560px) {
+    .nav-sign-in-design {
+        display: none;
+    }
+
+    .navbar-toggler {
+        position: relative;
+        left: 18em;
+    }
+
+    .has-search .form-control {
+        width: 30em;
+    }
+    .navbar-brand {
+        font-size: 24px;
+    }
+    .header-border .hide-mobile-header {
+        display: none;
+    }
+    .header-border .show-mobile-header {
+        display: block;
+        font-size: 20px;
+    }
+
+    .navbar .show-mobile-nav {
+        display: block;
+    }
+}
+
+@media screen and (max-width:1920px) {
+    .header-border .show-mobile-header {
+        display: none;
+    }
+    .navbar .hide-desktop-nav {
+        display: none;
+    }
+}

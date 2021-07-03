@@ -1,0 +1,114 @@
+.container {
+  background-color: #FFFAF6;
+  display: flex;
+  text-align: center;
+  font-family: Ink Free;
+  font-size: 13px;
+}
+
+#DTI {
+    width: 50px;
+    height: 45px;
+}
+
+#OTG {
+    width: 70px;
+}
+img {
+    /* margin-left: 5.7em;
+    margin-left: 53.975px; */
+    margin-left: 3.373em;
+}
+
+#OTG {
+    margin-left: 6.746em;
+}
+
+#Safe {
+    margin-left: 6.746em;
+}
+
+#Call {
+    margin-left: 6.746em;
+}
+
+#EMAIL {
+    margin-left: 10.746em;
+}
+
+#Reg {
+    padding-top: 1.2em;
+}
+
+#On {
+    padding-top: .7em;
+}
+
+#gcash {
+    padding-top: .9em;
+    margin-left: .2em;
+}
+
+#call {
+    padding-top: .7em;
+    margin-left: .2em;
+}
+
+#email {
+    padding-top: 1.2em;
+    margin-left: .3em;
+}
+
+.sample {
+    width: 70px;
+}
+
+NEW SEARCH BUTTON AND LOGO NAME
+
+/* #input-search {
+    border-radius: 25px;
+    border: 1px solid #DA6060;
+    text-indent:1em;
+    position: relative;
+    width: 17em;
+    height: 2.7em;
+    outline: none;
+    font-size: 12px;
+}
+
+.btn-search {
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.btn-search img {
+    position: relative;
+    top: 2px;
+    right: 32px;
+    margin-left: .5em;
+} */
+
+/* #logo-name {
+    font-size: 21px;
+    font-family: Ink Free;
+    line-height: 1.2em;
+    margin: .7em .5em 0 .4em;
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+} */
+
+ <!-- <a href="#" id="logo-name">cup K's<br>indulgence</a> -->
+
+
+/* .logo {
+    width: 100px;
+    height: 100px;
+    margin: .5em 0 .5em 3em;
+} */
+
+
+ <!-- <a href="#"><img src="/IMAGES%20AND%20ICONS/Images/LOGOS/CUP%20K'S%20LOGO.png" alt="cup K's indulgence"
+                    class="logo"></a> -->

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="practice.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Passenger App -->
+    <p id="welcome-el"></p>
+    <h1>People Entered: </h1>
+    <h2 id="count-el">0</h2>
+    <button id="increment-btn">Increment Button</button>
+    <button id="save-btn">Save</button>
+    <p>Previous Entries: </p>
+    <span id="paragraph-el"></span>
+
+    <!-- Point Calculator -->
+
+    <p>Points: </p>
+    <p id="myPoints">0</p>
+    <button id="addPoint" onclick="addPoint()">Add 3 Points</button>
+    <button id="removePoint" onclick="removePoint()">Remove 1 Point</button>
+    <p id="error"></p>
+
+    <!-- Simple Calculator -->
+
+    <p>Simple Calculator</p>
+    <p id="firstNum"></p>
+    <p id="secondNum"></p>
+    <button id="add">Add</button>
+    <button id="subtract">Subtract</button>
+    <button id="multiply">Multiply</button>
+    <button id="divide">Divide</button>
+    <p id="answer"></p>
+
+    <!-- Blackjack -->
+
+    <h1 class="blackjack">Blackjack</h1>
+    <p id="message-el">Want to play a round?</p>
+    <p id="lives"></p>
+    <p id="cards-el">Cards: </p>
+    <p id="sum-el">Sum: </p>
+    <p id="credits"></p>
+    <div class="buttons">
+        <button id="start-game">Start Game</button>
+        <button id="new-card" onclick="newCard()">New Card</button>
+    </div>
+
+    <!-- Shelf -->
+
+    <div id="apple-shelf"></div>
+    <div id="orange-shelf"></div>
+
+    <script src="practice.js"></script>
+</body>
+
+</html>

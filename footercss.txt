@@ -1,0 +1,272 @@
+<footer id="footer" class="footer-container">
+            <div class="top-container">
+                <div class="footer-logo">
+                    <a href="#logo-name"><img src="/IMAGES AND ICONS/Images/LOGOS/CUP K'S LOGO.png" id="img-logo"
+                            alt="cup K's indulgence"></a></div>
+                <div class="information-footer">
+                    <ul class="footer-links">
+                        <li>
+                            <h4>INFORMATION</h4>
+                        </li>
+                        <a href="">
+                            <li>ABOUT US</li>
+                        </a>
+                        <a href="">
+                            <li>OUR PARTNERS</li>
+                        </a>
+                        <a href="">
+                            <li>PRIVACY POLICY</li>
+                        </a>
+                        <a href="">
+                            <li>TERMS AND CONDITIONS</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="account-footer">
+                    <ul class="footer-links">
+                        <li>
+                            <h4>ACCOUNT</h4>
+                        </li>
+                        <a href="">
+                            <li>MANAGE YOUR ACCOUNT</li>
+                        </a>
+                        <a href="">
+                            <li>TRACK YOUR ORDER</li>
+                        </a>
+                        <a href="">
+                            <li>ORDER HISTORY</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="contact-footer">
+                    <ul class="footer-links">
+                        <li>
+                            <h4>CONTACT US</h4>
+                        </li>
+                        <a href="">
+                            <li><img src="/IMAGES AND ICONS/ICONS/SVG/call_black_24dp new.svg" alt="insert number here">
+                                insert number here</li>
+                        </a>
+                        <a href="">
+                            <li><img src="/IMAGES AND ICONS/ICONS/SVG/email_black_24dp.svg" alt="insert email here">
+                                insert
+                                email here</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="connect-footer">
+                    <div class="form-footer">
+                        <div class="description-footer">
+                            <span class="description">SUBSCRIBE TO RECEIVE UPDATES, AND HAVE ACCESS TO<br>EXCLUSIVE
+                                DEALS,
+                                AND MORE!</span>
+                        </div>
+                        <form action="">
+                            <input type="text" placeholder="Name">
+                            <input type="email" name="email" id="" placeholder="Email Address">
+                            <button type="submit" class="btn-sellers">Subscribe</button>
+                        </form>
+                    </div>
+                    <div class="social-footer">
+                        <a href="https://www.facebook.com/cupksindulgence" target="_blank"
+                            rel="noopener noreferrer"><img src="/IMAGES AND ICONS/ICONS/SVG/facebook.svg"
+                                alt="Facebook"></a>
+                        <a href="https://www.instagram.com/cupksindulgence/" target="_blank"
+                            rel="noopener noreferrer"><img src="/IMAGES AND ICONS/ICONS/SVG/instagram.svg"
+                                alt="Instagram"></a>
+                        <a href="" target="_blank" rel="noopener noreferrer"><img
+                                src="/IMAGES AND ICONS/ICONS/SVG/envelope.svg" alt="Email"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-container">
+                <ul class="footer-links">
+                    <li>ALL RIGHTS RESERVED</li>
+                    <li>CUP K'S INDULGENCE</li>
+                    <li>2021</li>
+                    <li>DTI REGISTERED</li>
+                </ul>
+            </div>
+        </footer>
+
+CSS
+
+.footer-container {
+    position: relative;
+    margin-top: 70px;
+    background-color: var(--background-color);
+    border-top: 2px solid lightgray;
+    font-family: Ink Free ,Montserrat,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.top-container {
+    position: relative;
+    margin: 40px 40px;
+    height: 130px;
+}
+
+#img-logo {
+    position: absolute;
+    width: 200px;
+    top: -2.2em;
+}
+.information-footer {
+    position: absolute;
+    top: -0.2em;
+    left: 20em;
+}
+
+.account-footer {
+    position: absolute;
+    top: -0.2em;
+    left: 35em;
+}
+
+.contact-footer {
+    position: absolute;
+    top: -0.2em;
+    left: 50em;
+}
+
+.connect-footer {
+    position: absolute;
+    top: -0.2em;
+    left: 64em;
+}
+
+.footer-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7em;
+}
+
+.footer-links h4 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer-links li {
+    font-size: 15px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.contact-footer a:not(:nth-of-type(1)):hover{
+    text-decoration: none;
+}
+
+.contact-footer a:not(:nth-of-type(0)):hover {
+    text-decoration: none;
+}
+
+.social-footer img {
+    width: 27px;
+    margin: 3px;
+}
+
+.description-footer {
+    margin-bottom: 10px;
+}
+
+.description-footer .description {
+    font-size: 15px;
+}
+
+.form-footer {
+    margin-bottom: 10px;
+}
+
+.form-footer input {
+    outline: none;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    box-shadow: none;
+    text-indent: .4em;
+}
+
+.form-footer button {
+    font-size: 14px;
+    padding: 2px 6px;
+    border: 1px solid;
+}
+
+.bottom-container {
+    height: 50px;
+    border: 2px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-container li {
+    display: inline-block;
+    font-size: 1em;
+}
+
+.bottom-container li:not(:nth-of-type(1))::before {
+    content: "| ";
+    padding: 0 10px;
+}
+
+<div class="outsidebg">
+            <div class="innerbg">
+                <img src="/IMAGES AND ICONS/Images/CAKES/cake.jpg" alt="Bento Cake">
+                <span class="innertextbg">CUSTOMIZE YOUR OWN<br>CAKE WITH OUR<br>VIRTUAL CAKE DESIGNER</span>
+                <button>TRY NOW</button>
+            </div>
+        </div>
+
+.outsidebg {
+    position: relative;
+    background-color: #FFFFF0;
+    height: 400px;
+    width: 100%;
+}
+
+.innerbg {
+    background-color: #FDFFD5;
+    position: absolute;
+    height: 400px;
+    width: 60%;
+    right: 25em;
+}
+
+.innerbg img {
+    position: absolute;
+    height: 400px;
+    width: 55%;
+}
+
+.innerbg .innertextbg {
+    font-family: Montserrat, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    color: var(--primary-color);
+    position: absolute;
+    top: 2em;
+    right: .8em;
+    font-weight: bolder;
+    font-size: 38px;
+    line-height: 1.2em;
+}
+
+/* Hero Image Button */
+
+.innerbg button {
+    position: absolute;
+    right: 8em;
+    top: 11em;
+    background-color: var(--primary-color);
+    color: #FFFFFF;
+    font-family: Montserrat, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding: 10px 40px 10px 40px;
+}

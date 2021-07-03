@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header-info {
+    background-color: #F9F9F9;
+    display: flex;
+    flex-grow: 1;
+}
+.ul-header-info {
+    list-style-type: none;
+    display: flex;
+    font-family: Ink Free;
+    gap: 12em;
+    font-size: 13px;
+    min-width: 1500px;
+    text-align: center;
+    justify-content: center;
+}
+
+.ul-header-info li img {
+    padding-top: 0.4em;
+}
+
+#LOCK-IMG {
+    width: 30px;
+}
+
+#CALL-IMG {
+    width: 30px;
+}
+
+#EMAIL-IMG {
+    width: 30px;
+}
+
